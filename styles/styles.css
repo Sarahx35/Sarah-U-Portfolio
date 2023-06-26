@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poltawski+Nowy&family=Raleway:wght@200&family=Roboto:wght@100;500&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,5 +10,25 @@
 }
 
 body {
-  background-color: red;
-}/*# sourceMappingURL=styles.css.map */
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  background-color: #f1f1f1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+nav li {
+  padding: 0.5em;
+}
+
+.website-banner {
+  text-align: center;
+  padding: 2em;
+}
+

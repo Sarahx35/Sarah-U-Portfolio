@@ -13,6 +13,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+
 nav {
   background-color: #f1f1f1;
 }
@@ -30,5 +31,32 @@ nav li {
 .website-banner {
   text-align: center;
   padding: 2em;
+}
+
+.intro-title {
+  text-align: center;
+  padding: 2em;
+  font-size: 1.5em;
+}
+
+.header-intro-title {
+  padding: 0.5em;
+}
+
+hr {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+footer {
+  text-align: center;
+}
+
+.ftr-txt {
+  padding: 1em;
+}
+
+.ftr-sub-text {
+  padding: 1em;
 }
 

@@ -127,15 +127,21 @@ nav li {
 
 /* ABOUT */
 
-@media only screen and (max-width: 1000px) {
-  .container {
+.side-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .side-container {
      flex-direction: column ;
   }
 } 
 
 .right-side-img {
-  float: right;
-  width: 50%;
+  flex-basis: 40%;
+  padding: 2em;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -145,17 +151,14 @@ nav li {
   }
 } 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 200px) {
   .right-side-img {
      display: none;
   }
 } 
 
 .left-side-text {
-  float: left;
   text-align: center;
-  width: 50%;
-  padding: 5em;
 } 
 
 .left-side-text p {

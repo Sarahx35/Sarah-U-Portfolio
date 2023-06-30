@@ -128,34 +128,35 @@ nav li {
   }
 } 
 
-.right-side-img {
+.left-side-img {
   flex-basis: 40%;
   padding: 2em;
+  width: 50%;
 }
 
 @media only screen and (max-width: 1000px) {
-  .right-side-img {
+  .left-side-img {
       float: none;
       width: 100%;
   }
 } 
 
 @media only screen and (max-width: 200px) {
-  .right-side-img {
+  .left-side-img {
      display: none;
   }
 } 
 
-.left-side-text {
+.right-side-text {
   text-align: center;
 } 
 
-.left-side-text p {
+.right-side-text p {
   padding: 1em;
 }
 
 @media only screen and (max-width: 1000px) {
-  .left-side-text {
+  .right-side-text {
       text-align: center;
       width: 100%;
   }

@@ -193,6 +193,66 @@ nav li {
   margin: 1em;
 }
 
+
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+.first-img:hover {
+  filter:blur(2px) brightness(60%);
+  box-shadow: 0 0 16px lightgray;
+  transition: 0.2s;
+}
+
+.second-img:hover {
+  filter:blur(2px) brightness(60%);
+  box-shadow: 0 0 16px lightgray;
+  transition: 0.2s;
+}
+
+
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+.third-img:hover {
+  filter:blur(2px) brightness(60%);
+  box-shadow: 0 0 16px lightgray;
+  transition: 0.2s;
+}
+
+
+.fourth-img:hover {
+  filter:blur(2px) brightness(60%);
+  box-shadow: 0 0 16px lightgray;
+  transition: 0.2s;
+}
+
+
+
 /* END OF PORTFOLIO */
 
 

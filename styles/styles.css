@@ -162,6 +162,10 @@ nav li {
   }
 } 
 
+.skills-list {
+  padding: 0.5em;
+}
+
 /* END OF ABOUT */
 
 
@@ -284,17 +288,52 @@ nav li {
 
 /* END OF OVERLAPPING TEXT */
 
-
-
-
-
-/* END OF GRID */
-
-
-
-
-
 /* END OF PORTFOLIO */
+
+
+/* BLOG WEBSITE BLOG */
+.header-btn {
+  text-align: center;
+  padding: 1em;
+}
+
+.view-button {
+  background-color: lightgrey;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.view-button-1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid lightgrey;
+}
+
+.view-button-1:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
+article {
+  text-align: center;
+}
+
+article h1 {
+  padding: 1em;
+}
+
+/* END OF BLOG WEBSITE BLOG */
+
+
 
 
 /* FOOTER */

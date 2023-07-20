@@ -42,8 +42,15 @@
         <div class="ftr-txt">
             <p class="ftr-sub-text">Sarah's Portfolio</p>
             <p class="ftr-sub-text">Contact Me: s.underhay@yahoo.co.uk</p>
-            <p class="ftr-sub-text">&copy;2023 by Sarah's Portfolio.</p>
+            <p class="ftr-sub-text footer-copyright-text">&copy;2023 by Sarah's Portfolio.</p>
         </div>
     </footer>
+    <script>
+        // Updating the footer year automatically
+        const copyrightName = "Sarah's Portfolio";
+        const copyrightDate = new Date();
+
+        document.getElementById("footer-copyright-text").innerHTML = "&copy; " + copyrightDate.getFullYear() + " by " + copyrightName;
+    </script>   
 </body>
 </html>

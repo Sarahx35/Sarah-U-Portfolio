@@ -1,6 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poltawski+Nowy&family=Raleway:wght@200&family=Roboto:wght@100;500&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 * {
   margin: 0;
@@ -16,6 +16,10 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+strong {
+  font-weight:600;
 }
 
 

@@ -180,7 +180,7 @@ filter:none;
   }
 } 
 
-@media only screen and (min-width:2000px) and (max-width: 5000px) {
+@media only screen and (min-width:1000px) and (max-width: 5000px) {
   .left-side-text {
     width: 700px;
     height: 700px;

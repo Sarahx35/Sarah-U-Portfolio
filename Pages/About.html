@@ -1,57 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://sarahx35.github.io/Sarah-U-Portfolio/styles.css">
-    <link rel="stylesheet" href="/styles/img-gallery.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css"/>
+    <link rel="stylesheet" href="/styles/img-gallery.css" />
     <title>About</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="website-banner">
-            <h1>SARAH'S PORTFOLIO</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/Pages/About.html">About</a></li>
-                <li><a href="/Pages/Contact.html">Contact</a></li>
-                <li><a href="/Pages/Portfolio/Portfolio.html">Portfolio</a></li>
-            </ul>
-        </nav>
+      <div class="website-banner">
+        <h1>SARAH'S PORTFOLIO</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/Pages/About.html">About</a></li>
+          <li><a href="/Pages/Contact.html">Contact</a></li>
+          <li><a href="/Pages/Portfolio/Portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
     </header>
     <div class="side-container">
-            <img class="right-side-img" src="/Images/woman-coding-img.jpeg">
-            <div class="left-side-text"> 
-                <h1>ABOUT</h1>
-                <p>Sarah, 23 from Eastbourne</p>
-                <p>Starting out as a History Graduate, I immeditately went down a different path with my first job being in a start-up tech company. During that role I was introduced to HTML and CSS when building articles. My role was quite varied and included me help manage the CMS stage of Volkswagen email campaigns which meant using an API and sending across JSON files when transferring email data.</p>
-            <p>Since that role, I came to realise that I was becoming increasingly interested in the coding side of things and began to teach myself CSS and Javascript in my spare time. This eventually led me to quit my job to soley focus on training myself up to become a developer.</p>
-            <p>My skillset now includes:</p>
-            <ul>
-                <li class="skills-list">HTML5</li>
-                <li class="skills-list">CSS3 <br><em>(Including Bootstrap and JQuery)</em></li>
-                <li class="skills-list">Javascript <br><em>(Including Node.js, React and Typescript)</em></li>
-                <li class="skills-list">Python</li>
-            </ul>
-            <p>Please take a look at my <u><a href="/Pages/Portfolio/Portfolio.html">portfolio</a></u> where you can see these skills in action.</p>
-            </div>
-        </div> 
+      <img class="right-side-img" src="/Images/woman-coding-img.jpeg" />
+      <div class="left-side-text">
+        <h1>ABOUT</h1>
+        <p>Sarah, 23 from Eastbourne</p>
+        <p>
+          Starting out as a History Graduate, I immeditately went down a
+          different path with my first job being in a start-up tech company.
+          During that role I was introduced to HTML and CSS when building
+          articles. My role was quite varied and included me help manage the CMS
+          stage of Volkswagen email campaigns which meant using an API and
+          sending across JSON files when transferring email data.
+        </p>
+        <p>
+          Since that role, I came to realise that I was becoming increasingly
+          interested in the coding side of things and began to teach myself CSS
+          and Javascript in my spare time. This eventually led me to quit my job
+          to soley focus on training myself up to become a developer.
+        </p>
+        <p>My skillset now includes:</p>
+        <ul>
+          <li class="skills-list">HTML5</li>
+          <li class="skills-list">
+            CSS3 <br /><em>(Including Bootstrap and JQuery)</em>
+          </li>
+          <li class="skills-list">
+            Javascript <br /><em>(Including Node.js, React and Typescript)</em>
+          </li>
+          <li class="skills-list">Python</li>
+        </ul>
+        <p>
+          Please take a look at my
+          <u><a href="/Pages/Portfolio/Portfolio.html">portfolio</a></u> where
+          you can see these skills in action.
+        </p>
+      </div>
+    </div>
     <footer>
-        <hr>
-        <div class="ftr-txt">
-            <p class="ftr-sub-text">Sarah's Portfolio</p>
-            <p class="ftr-sub-text">Contact Me: s.underhay@yahoo.co.uk</p>
-            <p class="ftr-sub-text footer-copyright-text">&copy;2023 by Sarah's Portfolio.</p>
-        </div>
+      <hr />
+      <div class="ftr-txt">
+        <p class="ftr-sub-text">Sarah's Portfolio</p>
+        <p class="ftr-sub-text">Contact Me: s.underhay@yahoo.co.uk</p>
+        <p class="ftr-sub-text footer-copyright-text">
+          &copy;2023 by Sarah's Portfolio.
+        </p>
+      </div>
     </footer>
     <script>
-        // Updating the footer year automatically
-        const copyrightName = "Sarah's Portfolio";
-        const copyrightDate = new Date();
+      // Updating the footer year automatically
+      const copyrightName = "Sarah's Portfolio";
+      const copyrightDate = new Date();
 
-        document.getElementById("footer-copyright-text").innerHTML = "&copy; " + copyrightDate.getFullYear() + " by " + copyrightName;
-    </script>   
-</body>
+      document.getElementById("footer-copyright-text").innerHTML =
+        "&copy; " + copyrightDate.getFullYear() + " by " + copyrightName;
+    </script>
+  </body>
 </html>

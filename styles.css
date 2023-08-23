@@ -152,6 +152,9 @@ filter:none;
       float: none;
       width: 100%;
   }
+  .left-side-text {
+    width: 100%;
+  }
 }
 
 
@@ -178,20 +181,7 @@ filter:none;
 } 
 
 @media only screen and (min-width:2000px) and (max-width: 5000px) {
-  .left-side-text {
-      margin: 0;
-      padding: 2em;
-  }
-  .right-side-img {
-      margin: 0;
-  }
-  .side-container {
-    justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
+  
 } 
 
 .skills-list {

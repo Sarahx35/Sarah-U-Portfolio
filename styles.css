@@ -185,6 +185,9 @@ filter:none;
     width: 700px;
     height: 700px;
   }
+  .right-side-img {
+    max-width: 1000px;
+  }
 } 
 
 .skills-list {

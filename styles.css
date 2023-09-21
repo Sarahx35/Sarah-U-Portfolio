@@ -46,6 +46,16 @@ nav {
 }
 }
 
+/* MOBILE NAV BAR */
+@media only screen and (max-width: 1000px) {
+  nav {
+      text-align: center;
+      width: 100%;
+  }
+  }
+
+/* END OF MOB NAV BAR */
+
 /* END OF NAV BAR */
 
 
